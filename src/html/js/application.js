@@ -4,7 +4,7 @@
 	// awesome code goes here ...
 	$(function() {
 
-		alert("works!");
+		// alert("works!");
 
 	});
 
