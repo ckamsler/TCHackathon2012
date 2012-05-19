@@ -6,15 +6,22 @@
 	
 		constructor: Kover,
 
-		init: function() {
+		init: function(whitLiResponse) {},
+		
+		usat: {
+		
+			books: function() {
+			
+				
+			
+			}
 		
 		},
-		
-		fb: {},
-
-		usat: {},
 
 		whitli: {	
+
+
+
 		}
 
 	};	
