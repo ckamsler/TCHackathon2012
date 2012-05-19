@@ -6,16 +6,15 @@
 	
 		constructor: Kover,
 
+		init: function() {
+		
+		},
+		
 		fb: {},
 
 		usat: {},
 
 		whitli: {	
-			populate: function(uid){
-			
-					
-
-			}
 		}
 
 	};	
