@@ -69,6 +69,7 @@
 		FBBD0CF71568CD77005FA105 /* bootstrap.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CC61568CD55005FA105 /* bootstrap.min.js */; };
 		FBBD0CF81568CD77005FA105 /* jquery.1.7.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CCD1568CD55005FA105 /* jquery.1.7.2.min.js */; };
 		FBBD0CF91568CD77005FA105 /* template.js in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CD61568CD55005FA105 /* template.js */; };
+		FBBD0CFC1568D161005FA105 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CFB1568D161005FA105 /* Splash.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -163,6 +164,7 @@
 		FBBD0CD61568CD55005FA105 /* template.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = template.js; sourceTree = "<group>"; };
 		FBBD0CD71568CD55005FA105 /* vanilla-ice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vanilla-ice.png"; sourceTree = "<group>"; };
 		FBBD0CD81568CD55005FA105 /* wash-white-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wash-white-30.png"; sourceTree = "<group>"; };
+		FBBD0CFB1568D161005FA105 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +240,7 @@
 		81E9B920156830F70000D10C /* ArtWork */ = {
 			isa = PBXGroup;
 			children = (
+				FBBD0CFB1568D161005FA105 /* Splash.png */,
 				81E9B923156831890000D10C /* fbIcon.png */,
 				81E9B921156830F70000D10C /* bookshelf.jpg */,
 			);
@@ -473,6 +476,7 @@
 				FBBD0CF11568CD55005FA105 /* temp-book.png in Resources */,
 				FBBD0CF31568CD55005FA105 /* vanilla-ice.png in Resources */,
 				FBBD0CF41568CD55005FA105 /* wash-white-30.png in Resources */,
+				FBBD0CFC1568D161005FA105 /* Splash.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
