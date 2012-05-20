@@ -51,7 +51,6 @@
 				api.usat.getCategories(function(categories) {
 
 					api.usat.getBooksListByCategory("horror", function(list) {
-<<<<<<< HEAD
                         
                         $(".book-well").bind("click", function() {
                         
@@ -89,7 +88,6 @@ $("#popularity-selector").click(function () {
 });
 
 
-=======
 
 						$(".book-well").bind("click", function() {
 
@@ -97,7 +95,6 @@ $("#popularity-selector").click(function () {
 							ReadingView.go();
 
 						});
->>>>>>> added white text
 
 					});
 
@@ -136,37 +133,5 @@ $("#popularity-selector").click(function () {
 		FriendsView.go();
 
 	});
-<<<<<<< HEAD
-	
-	
-=======
-
-	//Hiding and Showing Items on the Bookshelf
-
-	$("#interest-toggle").click(function() {
-		$('.interest').slideToggle();
-		$("#interest-toggle").addClass('disabled')
-	});
-
-	$("#sentiment-toggle").click(function() {
-		$('.sentiment').slideToggle();
-		$("#sentiment-toggle").addClass('disabled')
-	});
-
-	$("#demographics-selector").click(function() {
-		$('.demographics').slideToggle();
-		$("#demographics-selector").addClass('disabled')
-	});
-
-	$("#personality-selector").click(function() {
-		$('.personality').slideToggle();
-		$("#personality-selector").addClass('disabled')
-	});
-
-	$("#popularity-selector").click(function() {
-		$('.popularity').slideToggle();
-		$("#popularity-selector").addClass('disabled')
-	});
->>>>>>> added white text
 
 })(jQuery);
