@@ -1,23 +1,27 @@
 (function($) {
    'use strict';
 
-
-	// awesome code goes here ...
 	$(function() {
 
 		api.usat.getCategories(function(categories) {
 
-			console.log(categories);
-
-			categories.forEach(function(item, index) {
 			
-				api.usat.getBooksByCategory(item.CategoryName, function(list) {
+			api.usat.getBooksByCategory("horror", function(list) {
 
 					console.log('list ', list);		
+
+					var $out = $("#out"), html = [];	
+
+					list.forEach(function(book) {
+					
+						html.push("<div>", book.Title, "</div>");
+					
+					});
+
+					$out.html(html.join(""));
 				
-				});
-			
 			});
+			
 		
 		});
 		

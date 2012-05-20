@@ -8,7 +8,7 @@
 
 		books: {
 			categories: "",
-			list: {}
+			titles: {}
 		},
 
 		init: function(whitLiResponse) {},
@@ -28,14 +28,13 @@
 				if (typeof fn === 'function') fn(api.books.categories);
 			},
 
-			getBooksByCategory: function(category, callback) {
+			getBooksByCategory: function(category, fn) {
 				// http://api.usatoday.com/open/bestsellers/books/titles?api_key=ajttbn768qy4kgyvc7dmzbgm&category=horror 	
 				// magically make ios request...
 	
-				api.books.list[category] = tempBooksList;			
-						
+				api.books.titles[category] = tempBooksList.Titles;			
 
-				if (typeof fn === 'function') fn(api.books.list[category]);
+				if (typeof fn === 'function') fn(api.books.titles[category]);
 			}
 		
 		}
