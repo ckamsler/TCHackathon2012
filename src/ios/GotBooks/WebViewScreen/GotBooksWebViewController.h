@@ -11,6 +11,9 @@
 }
 
 @property (nonatomic, retain) NSString *whitlisResponse;
+
 - (void)setUrl:(NSString *)whitlisResponseIn ;
+- (void) makeRequestWithUrl: (NSString*) url;
+
 
 @end

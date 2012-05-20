@@ -105,5 +105,9 @@
 	[self webViewDidFinishLoad:webView];
 }
 
+- (void) makeRequestWithUrl:(NSString *) url
+{
+    
+}
 
 @end
