@@ -1,11 +1,18 @@
 (function($) {
    'use strict';
 
+
 	// awesome code goes here ...
 	$(function() {
 
-		// alert("works!");
+		api.usat.getCategories(function(response) {
 
+			console.log(response);
+
+		
+		});
+
+		
 	});
 
 })(jQuery);
