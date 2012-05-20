@@ -15,7 +15,6 @@
 		
             alert(data);
 		
-            return "hello";
 		},
 		
 		usat: {

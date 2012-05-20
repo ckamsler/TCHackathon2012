@@ -9,6 +9,7 @@
 
 		destroy: function() {
 			$yield.find(".friends").unbind("click");
+            $yield.find(".logo").unbind("click");
 		},
 
 		go: function() {
@@ -24,6 +25,14 @@
 					BookShelfView.go();
 
 				});
+                
+                $yield.find(".logo").bind("click", function() {
+                
+                    _page.destroy();
+                
+                    BookShelfView.go();
+                
+                });
 
 			});
 		}
@@ -32,6 +41,7 @@
 	var BookShelfView = {	
 		destroy: function() {
 			$("#shelf").find("li").unbind("click");
+            $yield.find(".logo").unbind("click");
 		},
 		go: function() {
 		
@@ -59,7 +69,7 @@
 
 							_page.destroy();
 
-							BookDetailView.go();
+							ReadingView.go();
 						
 						});
 		
@@ -88,6 +98,28 @@
 
 		}
 	};
+
+
+    var ReadingView = {
+        destroy: function() {
+            $yield.find(".logo").unbind("click");
+        },
+        go: function() {
+            _page = this;	
+			
+			template.render("reading.html", $yield, function() {
+			
+				$yield.find(".logo").bind("click", function() {
+                
+                    _page.destroy();
+                
+                    BookShelfView.go();
+                
+                });
+			
+			});	
+        }
+    };
 
 
 	var _state = window.location, _page = null;

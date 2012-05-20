@@ -7,30 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		815C17A11568B14700B80ABE /* app.html in Resources */ = {isa = PBXBuildFile; fileRef = 815C17851568B14700B80ABE /* app.html */; };
-		815C17A21568B14700B80ABE /* bookshelf.html in Resources */ = {isa = PBXBuildFile; fileRef = 815C17861568B14700B80ABE /* bookshelf.html */; };
-		815C17A31568B14700B80ABE /* application.css in Resources */ = {isa = PBXBuildFile; fileRef = 815C17881568B14700B80ABE /* application.css */; };
-		815C17A41568B14700B80ABE /* bootstrap-responsive.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 815C17891568B14700B80ABE /* bootstrap-responsive.min.css */; };
-		815C17A51568B14700B80ABE /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 815C178A1568B14700B80ABE /* bootstrap.min.css */; };
-		815C17A61568B14700B80ABE /* friends.html in Resources */ = {isa = PBXBuildFile; fileRef = 815C178B1568B14700B80ABE /* friends.html */; };
-		815C17A71568B14700B80ABE /* bon-jovi.png in Resources */ = {isa = PBXBuildFile; fileRef = 815C178D1568B14700B80ABE /* bon-jovi.png */; };
-		815C17A81568B14700B80ABE /* bryan-fb-pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 815C178E1568B14700B80ABE /* bryan-fb-pic.jpg */; };
-		815C17A91568B14700B80ABE /* chris-fb-pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 815C178F1568B14700B80ABE /* chris-fb-pic.jpg */; };
-		815C17AA1568B14700B80ABE /* chumbawamba.png in Resources */ = {isa = PBXBuildFile; fileRef = 815C17901568B14700B80ABE /* chumbawamba.png */; };
-		815C17AB1568B14700B80ABE /* glyphicons-halflings-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 815C17911568B14700B80ABE /* glyphicons-halflings-white.png */; };
-		815C17AC1568B14700B80ABE /* glyphicons-halflings.png in Resources */ = {isa = PBXBuildFile; fileRef = 815C17921568B14700B80ABE /* glyphicons-halflings.png */; };
-		815C17AD1568B14700B80ABE /* kriss-kross.png in Resources */ = {isa = PBXBuildFile; fileRef = 815C17931568B14700B80ABE /* kriss-kross.png */; };
-		815C17AE1568B14700B80ABE /* madonna.png in Resources */ = {isa = PBXBuildFile; fileRef = 815C17941568B14700B80ABE /* madonna.png */; };
-		815C17AF1568B14700B80ABE /* mc-hammer.png in Resources */ = {isa = PBXBuildFile; fileRef = 815C17951568B14700B80ABE /* mc-hammer.png */; };
-		815C17B01568B14700B80ABE /* miguel-fb-pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 815C17961568B14700B80ABE /* miguel-fb-pic.png */; };
-		815C17B11568B14700B80ABE /* noise-bg.gif in Resources */ = {isa = PBXBuildFile; fileRef = 815C17971568B14700B80ABE /* noise-bg.gif */; };
-		815C17B21568B14700B80ABE /* vanilla-ice.png in Resources */ = {isa = PBXBuildFile; fileRef = 815C17981568B14700B80ABE /* vanilla-ice.png */; };
-		815C17B81568B14700B80ABE /* reading.html in Resources */ = {isa = PBXBuildFile; fileRef = 815C17A01568B14700B80ABE /* reading.html */; };
-		815C17D91568B99A00B80ABE /* api.js in Resources */ = {isa = PBXBuildFile; fileRef = 815C179A1568B14700B80ABE /* api.js */; };
-		815C17DA1568B99A00B80ABE /* application.js in Resources */ = {isa = PBXBuildFile; fileRef = 815C179B1568B14700B80ABE /* application.js */; };
-		815C17DB1568B9A100B80ABE /* bootstrap.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 815C179D1568B14700B80ABE /* bootstrap.min.js */; };
-		815C17DC1568B9A300B80ABE /* jquery.1.7.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 815C179E1568B14700B80ABE /* jquery.1.7.2.min.js */; };
-		815C17DD1568B9A500B80ABE /* template.js in Resources */ = {isa = PBXBuildFile; fileRef = 815C179F1568B14700B80ABE /* template.js */; };
 		81E9B9041568296B0000D10C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E9B9031568296B0000D10C /* UIKit.framework */; };
 		81E9B9061568296B0000D10C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E9B9051568296B0000D10C /* Foundation.framework */; };
 		81E9B9081568296B0000D10C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E9B9071568296B0000D10C /* CoreGraphics.framework */; };
@@ -66,33 +42,36 @@
 		81F797CC1568796D002A92EA /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F797C41568796D002A92EA /* CJSONSerializer.m */; };
 		81F797D115688B8A002A92EA /* GotBooksWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81F797CE15688B8A002A92EA /* GotBooksWebView.xib */; };
 		81F797D215688B8A002A92EA /* GotBooksWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F797D015688B8A002A92EA /* GotBooksWebViewController.m */; };
+		FBBD0CDB1568CD55005FA105 /* app.html in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CBE1568CD55005FA105 /* app.html */; };
+		FBBD0CDC1568CD55005FA105 /* application.css in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CBF1568CD55005FA105 /* application.css */; };
+		FBBD0CDE1568CD55005FA105 /* bon-jovi.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CC11568CD55005FA105 /* bon-jovi.png */; };
+		FBBD0CDF1568CD55005FA105 /* bookdetail.html in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CC21568CD55005FA105 /* bookdetail.html */; };
+		FBBD0CE01568CD55005FA105 /* bookshelf.html in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CC31568CD55005FA105 /* bookshelf.html */; };
+		FBBD0CE11568CD55005FA105 /* bootstrap-responsive.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CC41568CD55005FA105 /* bootstrap-responsive.min.css */; };
+		FBBD0CE21568CD55005FA105 /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CC51568CD55005FA105 /* bootstrap.min.css */; };
+		FBBD0CE41568CD55005FA105 /* bryan-fb-pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CC71568CD55005FA105 /* bryan-fb-pic.jpg */; };
+		FBBD0CE51568CD55005FA105 /* chris-fb-pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CC81568CD55005FA105 /* chris-fb-pic.jpg */; };
+		FBBD0CE61568CD55005FA105 /* chumbawamba.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CC91568CD55005FA105 /* chumbawamba.png */; };
+		FBBD0CE71568CD55005FA105 /* friends.html in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CCA1568CD55005FA105 /* friends.html */; };
+		FBBD0CE81568CD55005FA105 /* glyphicons-halflings-white.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CCB1568CD55005FA105 /* glyphicons-halflings-white.png */; };
+		FBBD0CE91568CD55005FA105 /* glyphicons-halflings.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CCC1568CD55005FA105 /* glyphicons-halflings.png */; };
+		FBBD0CEB1568CD55005FA105 /* kriss-kross.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CCF1568CD55005FA105 /* kriss-kross.png */; };
+		FBBD0CEC1568CD55005FA105 /* madonna.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CD01568CD55005FA105 /* madonna.png */; };
+		FBBD0CED1568CD55005FA105 /* mc-hammer.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CD11568CD55005FA105 /* mc-hammer.png */; };
+		FBBD0CEE1568CD55005FA105 /* miguel-fb-pic.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CD21568CD55005FA105 /* miguel-fb-pic.png */; };
+		FBBD0CEF1568CD55005FA105 /* noise-bg.gif in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CD31568CD55005FA105 /* noise-bg.gif */; };
+		FBBD0CF01568CD55005FA105 /* reading.html in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CD41568CD55005FA105 /* reading.html */; };
+		FBBD0CF11568CD55005FA105 /* temp-book.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CD51568CD55005FA105 /* temp-book.png */; };
+		FBBD0CF31568CD55005FA105 /* vanilla-ice.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CD71568CD55005FA105 /* vanilla-ice.png */; };
+		FBBD0CF41568CD55005FA105 /* wash-white-30.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CD81568CD55005FA105 /* wash-white-30.png */; };
+		FBBD0CF51568CD77005FA105 /* api.js in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CBD1568CD55005FA105 /* api.js */; };
+		FBBD0CF61568CD77005FA105 /* application.js in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CC01568CD55005FA105 /* application.js */; };
+		FBBD0CF71568CD77005FA105 /* bootstrap.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CC61568CD55005FA105 /* bootstrap.min.js */; };
+		FBBD0CF81568CD77005FA105 /* jquery.1.7.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CCD1568CD55005FA105 /* jquery.1.7.2.min.js */; };
+		FBBD0CF91568CD77005FA105 /* template.js in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CD61568CD55005FA105 /* template.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		815C17851568B14700B80ABE /* app.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = app.html; sourceTree = "<group>"; };
-		815C17861568B14700B80ABE /* bookshelf.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bookshelf.html; sourceTree = "<group>"; };
-		815C17881568B14700B80ABE /* application.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = application.css; path = css/application.css; sourceTree = "<group>"; };
-		815C17891568B14700B80ABE /* bootstrap-responsive.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = "bootstrap-responsive.min.css"; path = "css/bootstrap-responsive.min.css"; sourceTree = "<group>"; };
-		815C178A1568B14700B80ABE /* bootstrap.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = bootstrap.min.css; path = css/bootstrap.min.css; sourceTree = "<group>"; };
-		815C178B1568B14700B80ABE /* friends.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = friends.html; sourceTree = "<group>"; };
-		815C178D1568B14700B80ABE /* bon-jovi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bon-jovi.png"; path = "gfx/bon-jovi.png"; sourceTree = "<group>"; };
-		815C178E1568B14700B80ABE /* bryan-fb-pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "bryan-fb-pic.jpg"; path = "gfx/bryan-fb-pic.jpg"; sourceTree = "<group>"; };
-		815C178F1568B14700B80ABE /* chris-fb-pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "chris-fb-pic.jpg"; path = "gfx/chris-fb-pic.jpg"; sourceTree = "<group>"; };
-		815C17901568B14700B80ABE /* chumbawamba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chumbawamba.png; path = gfx/chumbawamba.png; sourceTree = "<group>"; };
-		815C17911568B14700B80ABE /* glyphicons-halflings-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "glyphicons-halflings-white.png"; path = "gfx/glyphicons-halflings-white.png"; sourceTree = "<group>"; };
-		815C17921568B14700B80ABE /* glyphicons-halflings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "glyphicons-halflings.png"; path = "gfx/glyphicons-halflings.png"; sourceTree = "<group>"; };
-		815C17931568B14700B80ABE /* kriss-kross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kriss-kross.png"; path = "gfx/kriss-kross.png"; sourceTree = "<group>"; };
-		815C17941568B14700B80ABE /* madonna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = madonna.png; path = gfx/madonna.png; sourceTree = "<group>"; };
-		815C17951568B14700B80ABE /* mc-hammer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mc-hammer.png"; path = "gfx/mc-hammer.png"; sourceTree = "<group>"; };
-		815C17961568B14700B80ABE /* miguel-fb-pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "miguel-fb-pic.png"; path = "gfx/miguel-fb-pic.png"; sourceTree = "<group>"; };
-		815C17971568B14700B80ABE /* noise-bg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "noise-bg.gif"; path = "gfx/noise-bg.gif"; sourceTree = "<group>"; };
-		815C17981568B14700B80ABE /* vanilla-ice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "vanilla-ice.png"; path = "gfx/vanilla-ice.png"; sourceTree = "<group>"; };
-		815C179A1568B14700B80ABE /* api.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = api.js; path = js/api.js; sourceTree = "<group>"; };
-		815C179B1568B14700B80ABE /* application.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = application.js; path = js/application.js; sourceTree = "<group>"; };
-		815C179D1568B14700B80ABE /* bootstrap.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = bootstrap.min.js; path = js/libs/bootstrap.min.js; sourceTree = "<group>"; };
-		815C179E1568B14700B80ABE /* jquery.1.7.2.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jquery.1.7.2.min.js; path = js/libs/jquery.1.7.2.min.js; sourceTree = "<group>"; };
-		815C179F1568B14700B80ABE /* template.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = template.js; path = js/template.js; sourceTree = "<group>"; };
-		815C17A01568B14700B80ABE /* reading.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = reading.html; sourceTree = "<group>"; };
 		81E9B8FF1568296B0000D10C /* GotBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GotBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E9B9031568296B0000D10C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		81E9B9051568296B0000D10C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -157,6 +136,33 @@
 		81F797CE15688B8A002A92EA /* GotBooksWebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GotBooksWebView.xib; sourceTree = "<group>"; };
 		81F797CF15688B8A002A92EA /* GotBooksWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GotBooksWebViewController.h; sourceTree = "<group>"; };
 		81F797D015688B8A002A92EA /* GotBooksWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GotBooksWebViewController.m; sourceTree = "<group>"; };
+		FBBD0CBD1568CD55005FA105 /* api.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = api.js; sourceTree = "<group>"; };
+		FBBD0CBE1568CD55005FA105 /* app.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = app.html; sourceTree = "<group>"; };
+		FBBD0CBF1568CD55005FA105 /* application.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = application.css; sourceTree = "<group>"; };
+		FBBD0CC01568CD55005FA105 /* application.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = application.js; sourceTree = "<group>"; };
+		FBBD0CC11568CD55005FA105 /* bon-jovi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bon-jovi.png"; sourceTree = "<group>"; };
+		FBBD0CC21568CD55005FA105 /* bookdetail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bookdetail.html; sourceTree = "<group>"; };
+		FBBD0CC31568CD55005FA105 /* bookshelf.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bookshelf.html; sourceTree = "<group>"; };
+		FBBD0CC41568CD55005FA105 /* bootstrap-responsive.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "bootstrap-responsive.min.css"; sourceTree = "<group>"; };
+		FBBD0CC51568CD55005FA105 /* bootstrap.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = bootstrap.min.css; sourceTree = "<group>"; };
+		FBBD0CC61568CD55005FA105 /* bootstrap.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bootstrap.min.js; sourceTree = "<group>"; };
+		FBBD0CC71568CD55005FA105 /* bryan-fb-pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bryan-fb-pic.jpg"; sourceTree = "<group>"; };
+		FBBD0CC81568CD55005FA105 /* chris-fb-pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chris-fb-pic.jpg"; sourceTree = "<group>"; };
+		FBBD0CC91568CD55005FA105 /* chumbawamba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chumbawamba.png; sourceTree = "<group>"; };
+		FBBD0CCA1568CD55005FA105 /* friends.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = friends.html; sourceTree = "<group>"; };
+		FBBD0CCB1568CD55005FA105 /* glyphicons-halflings-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-halflings-white.png"; sourceTree = "<group>"; };
+		FBBD0CCC1568CD55005FA105 /* glyphicons-halflings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-halflings.png"; sourceTree = "<group>"; };
+		FBBD0CCD1568CD55005FA105 /* jquery.1.7.2.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.1.7.2.min.js; sourceTree = "<group>"; };
+		FBBD0CCF1568CD55005FA105 /* kriss-kross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kriss-kross.png"; sourceTree = "<group>"; };
+		FBBD0CD01568CD55005FA105 /* madonna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = madonna.png; sourceTree = "<group>"; };
+		FBBD0CD11568CD55005FA105 /* mc-hammer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mc-hammer.png"; sourceTree = "<group>"; };
+		FBBD0CD21568CD55005FA105 /* miguel-fb-pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "miguel-fb-pic.png"; sourceTree = "<group>"; };
+		FBBD0CD31568CD55005FA105 /* noise-bg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "noise-bg.gif"; sourceTree = "<group>"; };
+		FBBD0CD41568CD55005FA105 /* reading.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = reading.html; sourceTree = "<group>"; };
+		FBBD0CD51568CD55005FA105 /* temp-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "temp-book.png"; sourceTree = "<group>"; };
+		FBBD0CD61568CD55005FA105 /* template.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = template.js; sourceTree = "<group>"; };
+		FBBD0CD71568CD55005FA105 /* vanilla-ice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vanilla-ice.png"; sourceTree = "<group>"; };
+		FBBD0CD81568CD55005FA105 /* wash-white-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wash-white-30.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,70 +179,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		815C17841568B14700B80ABE /* html */ = {
-			isa = PBXGroup;
-			children = (
-				815C179A1568B14700B80ABE /* api.js */,
-				815C179B1568B14700B80ABE /* application.js */,
-				815C17881568B14700B80ABE /* application.css */,
-				815C17891568B14700B80ABE /* bootstrap-responsive.min.css */,
-				815C178A1568B14700B80ABE /* bootstrap.min.css */,
-				815C179F1568B14700B80ABE /* template.js */,
-				815C17851568B14700B80ABE /* app.html */,
-				815C17861568B14700B80ABE /* bookshelf.html */,
-				815C178D1568B14700B80ABE /* bon-jovi.png */,
-				815C178E1568B14700B80ABE /* bryan-fb-pic.jpg */,
-				815C178F1568B14700B80ABE /* chris-fb-pic.jpg */,
-				815C17901568B14700B80ABE /* chumbawamba.png */,
-				815C17911568B14700B80ABE /* glyphicons-halflings-white.png */,
-				815C17921568B14700B80ABE /* glyphicons-halflings.png */,
-				815C17931568B14700B80ABE /* kriss-kross.png */,
-				815C17941568B14700B80ABE /* madonna.png */,
-				815C17951568B14700B80ABE /* mc-hammer.png */,
-				815C17961568B14700B80ABE /* miguel-fb-pic.png */,
-				815C17971568B14700B80ABE /* noise-bg.gif */,
-				815C17981568B14700B80ABE /* vanilla-ice.png */,
-				815C179D1568B14700B80ABE /* bootstrap.min.js */,
-				815C179E1568B14700B80ABE /* jquery.1.7.2.min.js */,
-				815C17871568B14700B80ABE /* css */,
-				815C178B1568B14700B80ABE /* friends.html */,
-				815C178C1568B14700B80ABE /* gfx */,
-				815C17991568B14700B80ABE /* js */,
-				815C17A01568B14700B80ABE /* reading.html */,
-			);
-			name = html;
-			path = ../../../html;
-			sourceTree = "<group>";
-		};
-		815C17871568B14700B80ABE /* css */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = css;
-			sourceTree = "<group>";
-		};
-		815C178C1568B14700B80ABE /* gfx */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = gfx;
-			sourceTree = "<group>";
-		};
-		815C17991568B14700B80ABE /* js */ = {
-			isa = PBXGroup;
-			children = (
-				815C179C1568B14700B80ABE /* libs */,
-			);
-			path = js;
-			sourceTree = "<group>";
-		};
-		815C179C1568B14700B80ABE /* libs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = libs;
-			sourceTree = "<group>";
-		};
 		81E9B8F41568296B0000D10C = {
 			isa = PBXGroup;
 			children = (
@@ -280,7 +222,7 @@
 		81E9B90A1568296B0000D10C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				815C17841568B14700B80ABE /* html */,
+				FBBD0CBB1568CD55005FA105 /* html */,
 				81F797CD15688B8A002A92EA /* WebViewScreen */,
 				81F797B21568796D002A92EA /* TouchJSON */,
 				81E9B92A156834670000D10C /* FBConnect20 */,
@@ -396,6 +338,57 @@
 			path = WebViewScreen;
 			sourceTree = SOURCE_ROOT;
 		};
+		FBBD0CBB1568CD55005FA105 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				FBBD0CFA1568CE3C005FA105 /* js */,
+				FBBD0CBE1568CD55005FA105 /* app.html */,
+				FBBD0CBF1568CD55005FA105 /* application.css */,
+				FBBD0CC11568CD55005FA105 /* bon-jovi.png */,
+				FBBD0CC21568CD55005FA105 /* bookdetail.html */,
+				FBBD0CC31568CD55005FA105 /* bookshelf.html */,
+				FBBD0CC41568CD55005FA105 /* bootstrap-responsive.min.css */,
+				FBBD0CC51568CD55005FA105 /* bootstrap.min.css */,
+				FBBD0CC71568CD55005FA105 /* bryan-fb-pic.jpg */,
+				FBBD0CC81568CD55005FA105 /* chris-fb-pic.jpg */,
+				FBBD0CC91568CD55005FA105 /* chumbawamba.png */,
+				FBBD0CCA1568CD55005FA105 /* friends.html */,
+				FBBD0CCB1568CD55005FA105 /* glyphicons-halflings-white.png */,
+				FBBD0CCC1568CD55005FA105 /* glyphicons-halflings.png */,
+				FBBD0CCE1568CD55005FA105 /* js */,
+				FBBD0CCF1568CD55005FA105 /* kriss-kross.png */,
+				FBBD0CD01568CD55005FA105 /* madonna.png */,
+				FBBD0CD11568CD55005FA105 /* mc-hammer.png */,
+				FBBD0CD21568CD55005FA105 /* miguel-fb-pic.png */,
+				FBBD0CD31568CD55005FA105 /* noise-bg.gif */,
+				FBBD0CD41568CD55005FA105 /* reading.html */,
+				FBBD0CD51568CD55005FA105 /* temp-book.png */,
+				FBBD0CD71568CD55005FA105 /* vanilla-ice.png */,
+				FBBD0CD81568CD55005FA105 /* wash-white-30.png */,
+			);
+			name = html;
+			path = ../../../html;
+			sourceTree = "<group>";
+		};
+		FBBD0CCE1568CD55005FA105 /* js */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		FBBD0CFA1568CE3C005FA105 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				FBBD0CD61568CD55005FA105 /* template.js */,
+				FBBD0CCD1568CD55005FA105 /* jquery.1.7.2.min.js */,
+				FBBD0CC61568CD55005FA105 /* bootstrap.min.js */,
+				FBBD0CC01568CD55005FA105 /* application.js */,
+				FBBD0CBD1568CD55005FA105 /* api.js */,
+			);
+			name = js;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -446,37 +439,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBBD0CF51568CD77005FA105 /* api.js in Resources */,
+				FBBD0CF61568CD77005FA105 /* application.js in Resources */,
+				FBBD0CF71568CD77005FA105 /* bootstrap.min.js in Resources */,
+				FBBD0CF81568CD77005FA105 /* jquery.1.7.2.min.js in Resources */,
+				FBBD0CF91568CD77005FA105 /* template.js in Resources */,
 				81E9B90E1568296B0000D10C /* InfoPlist.strings in Resources */,
 				81E9B91A1568296B0000D10C /* ViewController.xib in Resources */,
 				81E9B922156830F70000D10C /* bookshelf.jpg in Resources */,
 				81E9B924156831890000D10C /* fbIcon.png in Resources */,
 				81E9B949156834670000D10C /* FBConnect.bundle in Resources */,
 				81E9B94B156834670000D10C /* FBDialog.bundle in Resources */,
-				815C17D91568B99A00B80ABE /* api.js in Resources */,
-				815C17DA1568B99A00B80ABE /* application.js in Resources */,
-				815C17DD1568B9A500B80ABE /* template.js in Resources */,
 				81F797D115688B8A002A92EA /* GotBooksWebView.xib in Resources */,
-				815C17DB1568B9A100B80ABE /* bootstrap.min.js in Resources */,
-				815C17DC1568B9A300B80ABE /* jquery.1.7.2.min.js in Resources */,
-				815C17A11568B14700B80ABE /* app.html in Resources */,
-				815C17A21568B14700B80ABE /* bookshelf.html in Resources */,
-				815C17A31568B14700B80ABE /* application.css in Resources */,
-				815C17A41568B14700B80ABE /* bootstrap-responsive.min.css in Resources */,
-				815C17A51568B14700B80ABE /* bootstrap.min.css in Resources */,
-				815C17A61568B14700B80ABE /* friends.html in Resources */,
-				815C17A71568B14700B80ABE /* bon-jovi.png in Resources */,
-				815C17A81568B14700B80ABE /* bryan-fb-pic.jpg in Resources */,
-				815C17A91568B14700B80ABE /* chris-fb-pic.jpg in Resources */,
-				815C17AA1568B14700B80ABE /* chumbawamba.png in Resources */,
-				815C17AB1568B14700B80ABE /* glyphicons-halflings-white.png in Resources */,
-				815C17AC1568B14700B80ABE /* glyphicons-halflings.png in Resources */,
-				815C17AD1568B14700B80ABE /* kriss-kross.png in Resources */,
-				815C17AE1568B14700B80ABE /* madonna.png in Resources */,
-				815C17AF1568B14700B80ABE /* mc-hammer.png in Resources */,
-				815C17B01568B14700B80ABE /* miguel-fb-pic.png in Resources */,
-				815C17B11568B14700B80ABE /* noise-bg.gif in Resources */,
-				815C17B21568B14700B80ABE /* vanilla-ice.png in Resources */,
-				815C17B81568B14700B80ABE /* reading.html in Resources */,
+				FBBD0CDB1568CD55005FA105 /* app.html in Resources */,
+				FBBD0CDC1568CD55005FA105 /* application.css in Resources */,
+				FBBD0CDE1568CD55005FA105 /* bon-jovi.png in Resources */,
+				FBBD0CDF1568CD55005FA105 /* bookdetail.html in Resources */,
+				FBBD0CE01568CD55005FA105 /* bookshelf.html in Resources */,
+				FBBD0CE11568CD55005FA105 /* bootstrap-responsive.min.css in Resources */,
+				FBBD0CE21568CD55005FA105 /* bootstrap.min.css in Resources */,
+				FBBD0CE41568CD55005FA105 /* bryan-fb-pic.jpg in Resources */,
+				FBBD0CE51568CD55005FA105 /* chris-fb-pic.jpg in Resources */,
+				FBBD0CE61568CD55005FA105 /* chumbawamba.png in Resources */,
+				FBBD0CE71568CD55005FA105 /* friends.html in Resources */,
+				FBBD0CE81568CD55005FA105 /* glyphicons-halflings-white.png in Resources */,
+				FBBD0CE91568CD55005FA105 /* glyphicons-halflings.png in Resources */,
+				FBBD0CEB1568CD55005FA105 /* kriss-kross.png in Resources */,
+				FBBD0CEC1568CD55005FA105 /* madonna.png in Resources */,
+				FBBD0CED1568CD55005FA105 /* mc-hammer.png in Resources */,
+				FBBD0CEE1568CD55005FA105 /* miguel-fb-pic.png in Resources */,
+				FBBD0CEF1568CD55005FA105 /* noise-bg.gif in Resources */,
+				FBBD0CF01568CD55005FA105 /* reading.html in Resources */,
+				FBBD0CF11568CD55005FA105 /* temp-book.png in Resources */,
+				FBBD0CF31568CD55005FA105 /* vanilla-ice.png in Resources */,
+				FBBD0CF41568CD55005FA105 /* wash-white-30.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
