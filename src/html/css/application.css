@@ -1,8 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster+Two);
 
+.book {
+
+	padding-top: 6%;
+	padding-left:3%;
+	padding-right:3%;
+}
+
 .chapter {
 
 	padding-top: 6%;
+	padding-bottom:3%;
 }
 
 .lobster {
@@ -65,3 +73,38 @@
 	margin-top:15px;
 	
 }
+
+.friend-pic{
+	
+	float:left;
+	
+}
+
+
+
+.navbar-inner {
+    background-color: #46b502;
+    background-image: -moz-linear-gradient(center top , #46b502, #4ac102);
+    background-image:-webkit-linear-gradient(#46b502,#46b502,#4ac102);
+    background-repeat: repeat-x;
+    border-bottom-width:5px;
+  	border-bottom-style:solid;
+  	border-bottom-color:#358B02;
+}
+
+.navbar .brand {
+    color: #ffffff;
+}
+
+.navbar-stripe {
+    background-color:black;
+    height:29px;
+    width:100%;
+}
+
+body{
+	
+	background-image:url('/gfx/noise-bg.gif');
+	
+}
+
