@@ -40,12 +40,11 @@ extern NSString * const kFacebookSummaryKey;
 	bool _gettingUsername;
 	bool hasPermission;
 	NSString *userName;
+    NSString *userID;
 	UIView *dialogView;
 
     //fb 2.0 integration
     Facebook *facebook;
-    NSMutableDictionary *userPermissions;
-
 }
 
 + (void)useAPIKey:(NSString *)anAPIKey secretKey:(NSString *)aSecretKey;
@@ -54,13 +53,11 @@ extern NSString * const kFacebookSummaryKey;
 +(FacebookManager*) sharedFacebookManager;
 @property(nonatomic,retain) id<FacebookManagerDelegate> mainDelegate;
 @property(nonatomic,retain) NSString *userName;
+@property(nonatomic,retain) NSString *userID;
 @property(nonatomic,assign) bool hasPermission;
 @property (nonatomic, retain) UIView *dialogView;
 
 @property (nonatomic, retain) Facebook *facebook;
-@property (nonatomic, retain) NSMutableDictionary *userPermissions;
-
-//-(void)postStory:(MFlowItem*)storyData comment:(NSString*)comment delegate:(id<FacebookManagerDelegate>)delegate;
 
 -(void)postStory:(NSDictionary *)storyData comment:(NSString*)comment delegate:(id<FacebookManagerDelegate>)delegate;
 
@@ -68,6 +65,7 @@ extern NSString * const kFacebookSummaryKey;
 -(void)setMainDelegate:delegate:(id<FacebookManagerDelegate>)delegate;
 
 - (NSString*)getUsername;
+- (NSString*)getUserID;
 - (void) updateTokenValues;
 
 

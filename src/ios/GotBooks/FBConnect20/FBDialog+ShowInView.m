@@ -11,8 +11,6 @@
 static CGFloat kFacebookBlueForCategory[4] = {0.42578125, 0.515625, 0.703125, 1.0};
 static CGFloat kBorderBlackForCategory[4] = {0.3, 0.3, 0.3, 1};
 static CGFloat kBorderBlueForCategory[4] = {0.23, 0.35, 0.6, 1.0};
-static CGFloat kTitleMarginXForCategory = 8;
-static CGFloat kTitleMarginYForCategory = 4;
 static CGFloat kBorderWidthForCategory = 0;
 
 #define titleLabelHeight 390.00

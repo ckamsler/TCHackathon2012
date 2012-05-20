@@ -1,5 +1,5 @@
 (function($){
-
+ 
 	var Kover = function() {};	
 
 	Kover.prototype = {
@@ -11,7 +11,12 @@
 			titles: {}
 		},
 
-		init: function(whitLiResponse) {},
+		init: function(data) {
+		
+            alert(data);
+		
+            return "hello";
+		},
 		
 		usat: {
 		
@@ -52,7 +57,6 @@
 
 
 	window.api = new Kover();
-
 
 })(jQuery);
 

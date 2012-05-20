@@ -42,17 +42,17 @@ NSString * const kFacebookSummaryKey  = @"Summary";
 
 static FacebookManager *_instance;
 
-@synthesize mainDelegate,userName,hasPermission,dialogView;
+@synthesize mainDelegate,userName,userID, hasPermission,dialogView;
 
 @synthesize facebook;
-@synthesize userPermissions;
+
 
 - (void)initFacebook
 {
     facebook = [[Facebook alloc] initWithAppId:kAppId andDelegate:self];
+    userName = nil;
+    userID=nil;
     [self updateTokenValues];
-    
-    userPermissions = [[NSMutableDictionary alloc] initWithCapacity:1];
 }
 
 - (void) updateTokenValues
@@ -69,11 +69,11 @@ static FacebookManager *_instance;
     // FIXME: this thing has hanging delegates all over the place with no references to kill them
 
     [facebook release];
-    [userPermissions release];
 
     [(NSObject *)mainDelegate release];
     [dialogView release];
     [userName release];
+    [userID release];
     [super dealloc];
 }
 
@@ -114,6 +114,13 @@ static FacebookManager *_instance;
 	return self.userName;
 }
 
+- (NSString*)getUserID {
+	if (self.userID == nil) {
+		self.userID = [[NSUserDefaults standardUserDefaults] stringForKey:@"facebookUserID"];
+	}
+	return self.userID;
+}
+
 -(void)setMainDelegate:delegate:(id<FacebookManagerDelegate>)dl
 {
     mainDelegate = dl;
@@ -123,11 +130,7 @@ static FacebookManager *_instance;
 {
 	mainDelegate = delegate;
     
-    if (![[self facebook] isSessionValid]) {
-        int i = 0;
-    } else {
-        int j = 0;
-    }
+    [[self facebook] isSessionValid];
 	
     NSMutableDictionary* params1 = [NSMutableDictionary dictionaryWithObjectsAndKeys:                                    
                                     [storyData objectForKey:kFacebookHeadlineKey], @"name",
@@ -211,7 +214,7 @@ static FacebookManager *_instance;
  */
 - (void)fbSessionInvalidated {
     UIAlertView *alertView = [[UIAlertView alloc]
-                              initWithTitle:@"USA TODAY"
+                              initWithTitle:@"GotBooks"
                               message:@"Your facebook session has expired."
                               delegate:nil
                               cancelButtonTitle:@"OK"
@@ -251,7 +254,10 @@ static FacebookManager *_instance;
     if ([result objectForKey:@"name"]) 
     {
         self.userName = [result objectForKey:@"name"];
+        self.userID = [result objectForKey:@"id"];
+        
         [[NSUserDefaults standardUserDefaults] setValue:self.userName forKey:@"facebookUsername"];
+        [[NSUserDefaults standardUserDefaults] setValue:self.userID forKey:@"facebookUserID"];
 
         NSNotification *note = [NSNotification notificationWithName:FacebookManagerUserNameAvailable object:self];
         [[NSNotificationCenter defaultCenter] postNotification:note];
@@ -268,7 +274,6 @@ static FacebookManager *_instance;
     NSLog(@"Err code: %d", [error code]);
     [facebook logout];
 }
-
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
