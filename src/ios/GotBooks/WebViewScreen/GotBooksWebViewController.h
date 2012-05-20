@@ -5,7 +5,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface GotBooksWebViewController : UIViewController <UIWebViewDelegate>
+@interface GotBooksWebViewController : UIViewController <UIWebViewDelegate, NSURLConnectionDelegate>
 {
 	IBOutlet UIWebView *theWebView;
 }

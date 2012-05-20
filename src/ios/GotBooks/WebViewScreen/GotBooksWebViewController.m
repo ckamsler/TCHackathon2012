@@ -25,6 +25,13 @@
 #pragma mark -
 #pragma mark LifeCycle
 
+- (void) connection:(NSURLConnection *)connection didReceiveData:(NSData *)data 
+{
+    NSString* response = [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];
+    
+    [theWebView stringByEvaluatingJavaScriptFromString :[NSString stringWithFormat:@"window.api.init(\'%@\')", whitlisResponse]];
+}
+
 - (void)viewDidLoad {
 	[super viewDidLoad];
 
@@ -35,9 +42,7 @@
 
     theWebView.scalesPageToFit = TRUE;
 	theWebView.delegate = self;
-    
-	//[theWebView stringByEvaluatingJavaScriptFromString : @""];
-    
+
     [theWebView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"app" ofType:@"html"]isDirectory:NO]]];
 
 }
@@ -85,14 +90,23 @@
 #pragma mark UIWebView Delgates
 #pragma mark -
 
-- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType 
+- (BOOL)webView: (UIWebView *) webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType 
 {
+    NSString *requestString = [[request URL] absoluteString];
+    
+    if ([requestString hasPrefix:@"js-frame"]) {
+    
+        [self makeRequestWithUrl:@"http://api.usatoday.com/open/bestsellers/books/categories?api_key=ajttbn768qy4kgyvc7dmzbgm"];
+        
+        return NO;
+    }
+    
 	return YES;
 }
 
+
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
-	if(webView.loading)
-		return;	
+	if(webView.loading) return;	
     
     NSString *pTempStr = [theWebView stringByEvaluatingJavaScriptFromString :[NSString stringWithFormat:@"window.api.init(\'%@\')", whitlisResponse]];
     
@@ -106,6 +120,9 @@
 
 - (void) makeRequestWithUrl:(NSString *) url
 {
+    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
+ 
+    [[NSURLConnection alloc] initWithRequest:urlRequest delegate:self];
     
 }
 

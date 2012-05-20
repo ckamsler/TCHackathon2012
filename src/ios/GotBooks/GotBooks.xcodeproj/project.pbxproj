@@ -63,7 +63,6 @@
 		FBBD0CF01568CD55005FA105 /* reading.html in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CD41568CD55005FA105 /* reading.html */; };
 		FBBD0CF11568CD55005FA105 /* temp-book.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CD51568CD55005FA105 /* temp-book.png */; };
 		FBBD0CF31568CD55005FA105 /* vanilla-ice.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CD71568CD55005FA105 /* vanilla-ice.png */; };
-		FBBD0CF41568CD55005FA105 /* wash-white-30.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CD81568CD55005FA105 /* wash-white-30.png */; };
 		FBBD0CF51568CD77005FA105 /* api.js in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CBD1568CD55005FA105 /* api.js */; };
 		FBBD0CF61568CD77005FA105 /* application.js in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CC01568CD55005FA105 /* application.js */; };
 		FBBD0CF71568CD77005FA105 /* bootstrap.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FBBD0CC61568CD55005FA105 /* bootstrap.min.js */; };
@@ -163,7 +162,6 @@
 		FBBD0CD51568CD55005FA105 /* temp-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "temp-book.png"; sourceTree = "<group>"; };
 		FBBD0CD61568CD55005FA105 /* template.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = template.js; sourceTree = "<group>"; };
 		FBBD0CD71568CD55005FA105 /* vanilla-ice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vanilla-ice.png"; sourceTree = "<group>"; };
-		FBBD0CD81568CD55005FA105 /* wash-white-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wash-white-30.png"; sourceTree = "<group>"; };
 		FBBD0CFB1568D161005FA105 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -367,7 +365,6 @@
 				FBBD0CD41568CD55005FA105 /* reading.html */,
 				FBBD0CD51568CD55005FA105 /* temp-book.png */,
 				FBBD0CD71568CD55005FA105 /* vanilla-ice.png */,
-				FBBD0CD81568CD55005FA105 /* wash-white-30.png */,
 			);
 			name = html;
 			path = ../../../html;
@@ -475,7 +472,6 @@
 				FBBD0CF01568CD55005FA105 /* reading.html in Resources */,
 				FBBD0CF11568CD55005FA105 /* temp-book.png in Resources */,
 				FBBD0CF31568CD55005FA105 /* vanilla-ice.png in Resources */,
-				FBBD0CF41568CD55005FA105 /* wash-white-30.png in Resources */,
 				FBBD0CFC1568D161005FA105 /* Splash.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

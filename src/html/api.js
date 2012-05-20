@@ -12,9 +12,10 @@
 		},
 
 		init: function(data) {
-		
-            alert(data);
-		
+        
+            var fn = function() {}
+        
+            window.location = "js-frame:makeRequest:api.usatoday.com/open/bestsellers/books/categories?api_key=ajttbn768qy4kgyvc7dmzbgm:" + fn;
 		},
 		
 		usat: {
