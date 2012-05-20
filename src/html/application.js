@@ -101,5 +101,33 @@
 		FriendsView.go();
 	
 	});
+	
+	
+	//Hiding and Showing Items on the Bookshelf
+	
+	$("#interest-toggle").click(function () {
+   $('.interest').slideToggle();
+   $("#interest-toggle").addClass('disabled')
+});
+
+	$("#sentiment-toggle").click(function () {
+   $('.sentiment').slideToggle();
+   $("#sentiment-toggle").addClass('disabled')
+});
+
+$("#demographics-selector").click(function () {
+   $('.demographics').slideToggle();
+   $("#demographics-selector").addClass('disabled')
+});
+
+$("#personality-selector").click(function () {
+   $('.personality').slideToggle();
+   $("#personality-selector").addClass('disabled')
+});
+
+$("#popularity-selector").click(function () {
+   $('.popularity').slideToggle();
+   $("#popularity-selector").addClass('disabled')
+});
 
 })(jQuery);
