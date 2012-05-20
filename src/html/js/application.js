@@ -26,7 +26,6 @@
 				});
 
 			});
-
 		}
 	};
 
@@ -59,6 +58,8 @@
 						$shelf.find("li").bind("click", function() {
 
 							_page.destroy();
+
+							BookDetailView.go();
 						
 						});
 		
@@ -70,6 +71,22 @@
 			
 		}
 		
+	};
+
+
+	var BookDetailView = {
+		destroy: function() {},
+		go: function() {
+			_page = this;	
+			
+			template.render("bookdetail.html", $yield, function() {
+			
+				
+			
+			});	
+
+
+		}
 	};
 
 
