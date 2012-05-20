@@ -41,7 +41,7 @@
 			template.render("bookshelf.html", $yield, function() {
 			
 				api.usat.getCategories(function(categories) {
-
+			
 					api.usat.getBooksListByCategory("horror", function(list) {
 
 						var $shelf = $("#shelf"), html = ["<ul>"];	
