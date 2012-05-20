@@ -23,7 +23,7 @@
 
 					BookShelfView.go();
 
-				});			
+				});
 
 			});
 
