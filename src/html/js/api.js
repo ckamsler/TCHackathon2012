@@ -32,7 +32,11 @@
 				// http://api.usatoday.com/open/bestsellers/books/titles?api_key=ajttbn768qy4kgyvc7dmzbgm&category=horror 	
 				// magically make ios request...
 	
-				api.books.titles[category] = tempBooksList.Titles;			
+				var t = api.books.titles[category] = tempBooksList.Titles;			
+
+				t.forEach(function(book) {
+					book.ISBN = book.TitleAPIUrl.replace("/Titles/", "");
+				});
 
 				if (typeof fn === 'function') fn(api.books.titles[category]);
 			}
