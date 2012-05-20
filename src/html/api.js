@@ -47,10 +47,8 @@
 			},
 
 			getBookInfo: function(isbn) {
-			
-				
-			
-			}
+ 
+            }
 		
 		}
 	};	

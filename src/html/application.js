@@ -52,26 +52,15 @@
 				api.usat.getCategories(function(categories) {
 			
 					api.usat.getBooksListByCategory("horror", function(list) {
+                        
+                        $(".book-well").bind("click", function() {
+                        
+                              _page.destroy();
+                              ReadingView.go();
+                                                
+                                                                         
+                        });
 
-						var $shelf = $("#shelf"), html = ["<ul>"];	
-
-						list.forEach(function(book) {
-						
-							html.push("<li>", book.Title, " - ", book.ISBN, "</li>");
-					
-						});
-
-						html.push("</ul>");
-
-						$shelf.html(html.join(""));
-
-						$shelf.find("li").bind("click", function() {
-
-							_page.destroy();
-
-							ReadingView.go();
-						
-						});
 		
 					});
 				
@@ -82,23 +71,6 @@
 		}
 		
 	};
-
-
-	var BookDetailView = {
-		destroy: function() {},
-		go: function() {
-			_page = this;	
-			
-			template.render("bookdetail.html", $yield, function() {
-			
-				
-			
-			});	
-
-
-		}
-	};
-
 
     var ReadingView = {
         destroy: function() {
